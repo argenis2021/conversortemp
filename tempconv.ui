@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>452</width>
+    <height>472</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_CtoF">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>De Celsius a Faraenheit &gt;&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_FtoC">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>270</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;&lt; De Farenheit a Celsius</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>190</y>
+      <width>64</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Celsius</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>190</y>
+      <width>64</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Farenheit</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editCel">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>150</y>
+      <width>113</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinFahr">
+    <property name="geometry">
+     <rect>
+      <x>303</x>
+      <y>150</y>
+      <width>101</width>
+      <height>33</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Borrar">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>380</y>
+      <width>95</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Borrar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
